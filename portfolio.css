@@ -1,0 +1,98 @@
+#portfolio{
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.myphoto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:5px;
+  padding:0;
+}
+
+.img-thumbnail{
+    display: block;
+    padding:0;
+    background-color:none; 
+    border:solid darkgray .5px;;
+    margin: 10px;
+    }
+
+    .left{
+        width: 500px; 
+        height:350px;
+        cursor: pointer;
+        transition: var(--size-animation-duration) ease;
+        box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+      
+        }
+
+    .right{
+            width: 250px; 
+            height:350px;
+            cursor: pointer;
+            transition: var(--size-animation-duration) ease;
+            box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+        }
+
+    .left:hover{
+      transform: scale(1.1)
+    }
+    .right:hover{
+        transform: scale(1.1)
+    }
+
+  .project-title {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+  }
+  
+  #service{
+    font-family: 'Allura', cursive;
+    font-size: 42px;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+  
+  }
+
+  #view-site,
+  #view-code
+  {
+    background-color:var(   --background-color);
+    color:var(--text-color);
+    padding: 5px;
+    border-radius: 5px;
+    border-top:var(--background-color);
+    margin: 10px;
+    cursor: pointer;
+    transition: var(--size-animation-duration) ease;
+
+  }
+
+  #view-site:hover{
+    background-color:var(--accent2-color);
+    color:var(--text-color);
+    transform: scale(1.1)
+
+  }  
+
+
+  #view-code:hover{
+    background-color:var(--accent2-color);
+    color:var(--text-color);
+    transform: scale(1.1)
+
+  }
+    
+

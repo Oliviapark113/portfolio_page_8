@@ -7,7 +7,6 @@
                 color: var(--background-color);
                 height:100%;
                 background-color:var(--body-color);
-                /* background-image: Portfolio photos/ROSE.jpg; */
                 font-size: 18px;
                 margin:0;
                 padding:0;
@@ -17,11 +16,12 @@
                 --text-color: #fafafa;
                 --background-color:#212121;
                 --mainbox-color:whitesmoke;
-                /* --accent-color:#304ffe; */
                 --accent-color:#e91e63;
                 --accent2-color:dodgerblue;
                 --accent3-color:#ff5722;
                 --accent4-color:#e0e0e0;
+                   /* animation */
+    --size-animation-duration: 300ms
             }
             .navbar{
                 display: flex;
@@ -54,7 +54,6 @@
             .navbar-list li a{
                 color: var(--text-color);
                 font-size: 28px;
-                /* display: flex; */
                 text-decoration-style: none;
             }
 
@@ -134,24 +133,10 @@
             .AboutmeImage{
                 display: block;
                 width:100%;
-                /* height:100%;  */
-                /* margin-right:10px; */
                 margin:auto;
             }
             
-            .img-thumbnail{
-            display: block;
-            /* width:100% \9;
-            height:100% \9; */
-            padding:0;
-            background-color:none; 
-            border:none;
-            height:350px;
-            width:350px; 
-            margin-top:10px;
-            margin-bottom: 10px;
-            margin-left: 20px;
-            }
+           
 
             .myBio1{
                 line-height: 1.6;
@@ -207,6 +192,7 @@
             .contact-mainbox{
                 display: flex; 
                 flex-direction: column;
+                justify-content: center;
                
 
             }
@@ -277,6 +263,7 @@
             }
 
             @media screen and (max-width:768px){
+               
 
                 .navbar{
                     flex-direction: column;
@@ -295,6 +282,12 @@
                 .navbar-list li {
                 width: 100%;
                 text-align: center;
+            
+            }
+
+            .navbar-list a {
+             font-size: 18px;
+            
             }
             
                 .navbar-icons {
@@ -344,7 +337,10 @@
                     background-image: url('Portfolio photos/media_bg_paper.jpg');
                     
                 
-            }   
+            } 
+            
+            
+            
 
                 
             } 
