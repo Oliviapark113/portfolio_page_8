@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutme</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/09ac4049bb.js" crossorigin="anonymous" defer="defer"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
+        media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <!-- <a class="navbar-initial" href="#"><i class="fas fa-h-square fa-2x"></i></a> -->
+            <h2 id="signature">Park</h2>
+        </div>
+
+        <ul class="navbar-list">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+
+        <ul class="navbar-icons">
+            <li class="hvr-icon-grow-rotate"><a href="https://github.com/Oliviapark113" target="_blank" title="olivia's github">
+                    <i class="fab fa-github-square hvr-icon"></i>
+                </a></li>
+            <li class="hvr-icon-grow-rotate">
+                <a href="https://www.instagram.com/olivia.y.park/" target="_blank" title="olivia's Instagram">
+                    <i class="fab fa-instagram-square  hvr-icon"></i></a>
+            </li>
+            <li class="hvr-icon-grow-rotate"><a href="mailto:oliviaypark113@gmail.com"
+                title="oliviaypark113@gmail.com"><i class="fas fa-envelope "></i></a> </li>
+        <!-- <li><a href="mailto:oliviaypark113@gmail.com" title="oliviaypark113@gmail.com">Contact me</a></li> -->
+
+        </ul>
+
+        <div class="navbar-toggleBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-lg-10 mainbox">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>About Me</h1>
+                        <p>Olivia,Youngmee, <span id="lastName">Park</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 img column">
+                        <img src="Portfolio photos/MONO 1_1.jpg" alt="MyMono 1"
+                            class="AboutmeImage rounded-circle  shadow  bg-white rounded img-fluid">
+                    </div>
+                    <div class="col-lg-8 myBio1">
+                        My name is Olivia Park.
+                        I am a passionate coder and love challenge myself creatively.<br>
+                        With a fashion desginer background, using designer aesthetic to create stylish website with whimscal twist.
+                        <br>
+                    
+                        I am an innovative and collaborative web developer
+                        with full-stack skill and seeking for software engineer position. 
+
+                      
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 myBio2">
+                      <div class="col-lg-6 skill-box">
+                        <i class="fas fa-chalkboard-teacher skill"></i>
+                      
+                        <ul class="skill-list">
+                            <li class="skill-header">TECHNICAL SKILLS</li>
+                          <li>HTML5</li>
+                          <li>CSS</li>
+                          <li>JavaScript/JQuery</li>
+                          <li>NODE.JS</li>
+                          <li>BOOTSRAP</li>
+                          <li>Reposive Web Design</li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6 skill-box">
+                      <i class="fas fa-broadcast-tower other"></i>
+                      <ul class="skill-list">
+                        <li class="skill-header">OTHER SKILLS</li>
+                      <li>Adobe Illustrator</li>
+                      <li>Adobe Photoshop</li>
+                      <li>Microsoft Powerpoint</li>
+                      <li>Microsoft Excell</li>
+                      
+                    </ul>
+                      </div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="email">
+            <li class="hvr-icon-grow-rotate"><a href="mailto:oliviaypark113@gmail.com"
+                    title="oliviaypark113@gmail.com"><i class="fas fa-envelope "></i></a> </li>
+            <li><a href="mailto:oliviaypark113@gmail.com" title="oliviaypark113@gmail.com">Contact me</a></li>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.querySelector(".navbar-toggleBtn");
+        const list = document.querySelector(".navbar-list");
+        const icons = document.querySelector(".navbar-icons");
+
+        toggleBtn.addEventListener("click", function () {
+            list.classList.toggle("active");
+            icons.classList.toggle("active");
+        });
+    </script>
+
+
+</body>
+
+</html>
