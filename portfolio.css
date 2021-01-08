@@ -1,6 +1,44 @@
 #portfolio{
-  line-height: 1.6;
-  margin-bottom: 10px;
+  margin: 10px;
+}
+.row{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.image-wrapper 
+{
+ display: flex;
+ width: 90%;
+
+}
+
+.image-wrapper img
+{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.desk-image{
+  flex:calc(1430/834);
+  margin-right: 10px;
+  transition: var(--size-animation-duration) ease;
+  box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+}
+
+.desk-image:hover{
+  transform: scale(1.1)
+}
+
+.mobile-image{
+  flex:calc(644/2009);
+  transition: var(--size-animation-duration) ease;
+  box-shadow: 1px 1px 16px rgba(0,0,0,.75);
+}
+
+.mobile-image:hover{
+  transform: scale(1.1)
 }
 
 .myphoto{
@@ -8,7 +46,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin:5px;
+
   padding:0;
 }
 
@@ -17,52 +55,33 @@
     padding:0;
     background-color:none; 
     border:solid darkgray .5px;;
-    margin: 10px;
     }
 
-    .left{
-        width: 500px; 
-        height:350px;
-        cursor: pointer;
-        transition: var(--size-animation-duration) ease;
-        box-shadow: 1px 1px 16px rgba(0,0,0,.75);
-      
-        }
-
-    .right{
-            width: 250px; 
-            height:350px;
-            cursor: pointer;
-            transition: var(--size-animation-duration) ease;
-            box-shadow: 1px 1px 16px rgba(0,0,0,.75);
-        }
-
-    .left:hover{
-      transform: scale(1.1)
-    }
-    .right:hover{
-        transform: scale(1.1)
-    }
 
   .project-title {
     display: block;
-    margin: auto;
+
+    margin: 13px auto 0px auto;
     text-align: center;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 24px;
   }
   
   #service{
     font-family: 'Allura', cursive;
     font-size: 42px;
   }
-
+.techniques{
+  text-align: center;
+  margin-top:15px;
+  padding:0;
+}
   .buttons{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 6px;
+    margin:0;
   
   }
 
@@ -74,7 +93,7 @@
     padding: 5px;
     border-radius: 5px;
     border-top:var(--background-color);
-    margin: 10px;
+    margin:5px;
     cursor: pointer;
     transition: var(--size-animation-duration) ease;
 
@@ -92,6 +111,21 @@
     background-color:var(--accent2-color);
     color:var(--text-color);
     transform: scale(1.1)
+
+  }
+
+  @media screen and (max-width:768px){
+
+
+  .mainbox{
+    background-color:transparent;
+  }
+  
+  .myphoto{
+    
+  }
+
+
 
   }
     

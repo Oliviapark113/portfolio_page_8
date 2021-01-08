@@ -101,17 +101,13 @@
             font-family: 'Allura', cursive;
             font-size: 42px;
             
-            }
-
-            
-
+            }           
 
             .mainbox, .contact-mainbox{
                 background-color: whitesmoke; 
                 padding: 20px;
                 margin-top: 100px;
                 margin-bottom: 150px;
-                /* background-image: url('Portfolio photos/ROSE.jpg') */
             }
 
             h1,p {
@@ -192,8 +188,10 @@
             .contact-mainbox{
                 display: flex; 
                 flex-direction: column;
-                justify-content: center;
-               
+                justify-content: center; 
+                margin: 100px auto;
+                padding: 20px;
+            
 
             }
 
