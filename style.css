@@ -103,7 +103,10 @@
             
             }           
 
-            .mainbox, .contact-mainbox{
+            .mainbox, 
+            .contact-mainbox,
+            .portfolio-mainbox
+            {
                 background-color: whitesmoke; 
                 padding: 20px;
                 margin-top: 100px;
