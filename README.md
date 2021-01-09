@@ -13,23 +13,23 @@
 -  Javascript:  *element.classList.toggle("classname")* for toggle menu bar.
 -  media queries: for *Responsive web page*
 
-#####About me full screen view
+##### About me full screen view
 ![about-me desk-top view](./Portfolio%20photos/about-1.jpg)
 
 - Update with technical skills and other skills
 
-#####Contact page full screen view
+##### Contact page full screen view
 
 ![contact-page desk-top view](./Portfolio%20photos/contact-1.jpg)
 
-#####Portfolio page full screen view
+##### Portfolio page full screen view
 
 - Display full screen view and responsive view next to each other 
   when click "VIEW SITE" : links to deployed wen page "VIEW CODE" : direct to Git-hub page to view code and readme. 
 
 ![portfolio-page desk-top view](./Portfolio%20photos/portfolio-1.jpg)
 
-####Responsive Nav-Bar 
+##### Responsive Nav-Bar 
 
 - Top-left corner has 4 icons: 
  1.Git-Hub page 
@@ -45,7 +45,7 @@ and small blue *hamberger icon* will appear at top right side of corner of the n
    
  ![link desk-top view](./Portfolio%20photos/link-2.jpg)
 
-#### RESPONSIVE VIEW 
+##### RESPONSIVE VIEW 
 
  ![about-me desk-top view](./Portfolio%20photos/about-2.jpg)
 
