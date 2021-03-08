@@ -21,7 +21,7 @@
 }
 
 .desk-image{
-  flex:calc(1430/834);
+  flex:calc(1430/832);
   margin-right: 10px;
   transition: var(--size-animation-duration) ease;
   box-shadow: 1px 1px 16px rgba(0,0,0,.75);

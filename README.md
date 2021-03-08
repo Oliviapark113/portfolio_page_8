@@ -1,8 +1,8 @@
-# portfolio_page_8 
+# portfolio_page_16 
 
 
 ## Deployed Website
-#### [portfolio_page-8](https://oliviapark113.github.io/portfolio_page_8/.)
+#### [portfolio_page-16](https://oliviapark113.github.io/portfolio_page_8/.)
 
 ### Aboutme page, Portfolio and Contact 
   
@@ -12,6 +12,9 @@
 -  Icons:  *fontsawesome*
 -  Javascript:  *element.classList.toggle("classname")* for toggle menu bar.
 -  media queries: for *Responsive web page*
+
+### Portfolio demo with recent projects 
+![demo](./demo/portfolio.gif)
 
 ##### About me full screen view
 ![about-me desk-top view](./Portfolio%20photos/about-1.jpg)
@@ -27,7 +30,7 @@
 - Display full screen view and responsive view next to each other 
   when click "VIEW SITE" : links to deployed wen page "VIEW CODE" : direct to Git-hub page to view code and readme. 
 
-![portfolio-page desk-top view](./Portfolio%20photos/portfolio-1.jpg)
+![portfolio-page desk-top view](./Portfolio%20photos/portfolio-3.jpg)
 
 ##### Responsive Nav-Bar 
 
@@ -47,8 +50,8 @@ and small blue *hamberger icon* will appear at top right side of corner of the n
 
 ##### RESPONSIVE VIEW 
 
- ![about-me desk-top view](./Portfolio%20photos/about-2.jpg)
+ ![about-me responsive view](./Portfolio%20photos/about-2.jpg)
 
- ![contact-page desk-top view](./Portfolio%20photos/contact-2.jpg)
+ ![contact-page responsive view](./Portfolio%20photos/contact-2.jpg)
 
-  ![portfolio-page desk-top view](./Portfolio%20photos/portfolio-2.jpg)
+  ![portfolio-page responsive view](./Portfolio%20photos/portfolio-4.jpg)
